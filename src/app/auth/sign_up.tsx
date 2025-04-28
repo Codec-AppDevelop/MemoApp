@@ -10,7 +10,7 @@ import Button from '../../components/Button'
 const handlePress = (): void => {
   // 会員登録
 
-  router.push('/memo/list')
+  router.replace('/memo/list')
 }
 
 

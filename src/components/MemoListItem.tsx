@@ -8,7 +8,7 @@ interface Props {
   memo: Memo
 }
 
-const MemoListItem = (props: Props): JSX.Element => {
+const MemoListItem = (props: Props): JSX.Element | null => {
   const { memo } = props
   const { bodyText, updateAt } = memo
   if (bodyText === null || updateAt === null) { return null }
